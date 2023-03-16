@@ -31,7 +31,7 @@ set.wrap = false
 local remap = vim.keymap.set
 
 -- remap escape
-remap("!", "jk", "<C-c>")
+-- remap("!", "jk", "<C-c>")
 
 -- jumps and vertical movement
 remap("n", "<C-o>", "<C-o>zz")
@@ -59,7 +59,7 @@ end, { desc = "[S]earch [A]ll [F]iles" })
 
 
 -- terminals
-remap("t", "jk", "<C-\\><C-n>")
+-- remap("t", "jk", "<C-\\><C-n>")
 
 vim.cmd([[
   command  Python bot 30 split | terminal python
